@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./stylesheet.css">
+	<title>Admin Dashboard</title>
+</head>
+<body>
+	<div class="container">
+		<div class="sidebar">
+			<div class="sidebar__item" id="header">
+				<img class="__icon sidebar__icon sidebar__icon--header" src="./images/dashboard.svg"/>
+				<div class="sidebar__text sidebar__text--header">Dashboard</div>
+			</div>
+			<div class="sidebar__container">
+				<div class="sidebar__item" id="home">
+					<img class="__icon sidebar__icon" src="./images/home.svg"/>
+					<div class="sidebar__text">Home</div>
+				</div>
+				<div class="sidebar__item" id="profile">
+					<img class="__icon sidebar__icon" src="./images/profile.svg"/>
+					<div class="sidebar__text">Profile</div>
+				</div>
+				<div class="sidebar__item" id="messages">
+					<img class="__icon sidebar__icon" src="./images/messages.svg"/>
+					<div class="sidebar__text">Messages</div>
+				</div>
+				<div class="sidebar__item" id="history">
+					<img class="__icon sidebar__icon" src="./images/history.svg"/>
+					<div class="sidebar__text">History</div>
+				</div>
+				<div class="sidebar__item" id="tasks">
+					<img class="__icon sidebar__icon" src="./images/tasks.svg"/>
+					<div class="sidebar__text">Tasks</div>
+				</div>
+				<div class="sidebar__item" id="communities">
+					<img class="__icon sidebar__icon" src="./images/communities.svg"/>
+					<div class="sidebar__text">Communities</div>
+				</div>
+			</div>
+			<div class="sidebar__container sidebar__container--bottom">
+				<div class="sidebar__item" id="settings">
+					<img class="__icon sidebar__icon" src="./images/settings.svg"/>
+					<div class="sidebar__text">Settings</div>
+				</div>
+				<div class="sidebar__item" id="support">
+					<img class="__icon sidebar__icon" src="./images/support.svg"/>
+					<div class="sidebar__text">Support</div>
+				</div>
+				<div class="sidebar__item" id="privacy">
+					<img class="__icon sidebar__icon" src="./images/privacy.svg"/>
+					<div class="sidebar__text">Privacy</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="header">
+				<div class="header__nav">
+					<div class="header__search">
+						<img class="__icon" src="./images/search.svg"/>
+						<input class="search__input" type="text"/>
+					</div>
+					<div class="header__account">
+						<img class="__icon" src="./images/notif.svg"/>
+						<img class="__icon __icon--user account__icon" src="./images/user.png"/>
+						<div class="account__name">vincevaris</div>
+					</div>
+				</div>
+				<div class="header__landing">
+					<div class="header__welcome">
+						<img class="__icon __icon--user welcome__icon" src="./images/user.png"/>
+						<div class="welcome__text">
+							<div class="welcome__message">Hi there,</div>
+							<div class="welcome__name">vince (@vincevaris)</div>
+						</div>
+					</div>
+					<div class="header__quick-actions">
+						<button class="quick-actions__button" id="new">New</button>
+						<button class="quick-actions__button" id="upload">Upload</button>
+						<button class="quick-actions__button" id="share">Share</button>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="projects">
+					<div class="content__header">Your Projects</div>
+					<div class="projects__list">
+						<div class="projects__item content__box">
+							<div class="project__status"></div>
+							<div class="project__content">
+								<div class="project__title">Super Cool Project</div>
+								<div class="project__desc">Sed ttempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
+								<div class="project__actions">
+									<img class="__icon" src="./images/star.svg"/>
+									<img class="__icon" src="./images/watch.svg"/>
+									<img class="__icon" src="./images/share.svg"/>
+								</div>
+							</div>
+						</div>
+						<div class="projects__item content__box">
+							<div class="project__status"></div>
+							<div class="project__content">
+								<div class="project__title">Less Cool Project</div>
+								<div class="project__desc">Sed ttempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
+								<div class="project__actions">
+									<img class="__icon" src="./images/star.svg"/>
+									<img class="__icon" src="./images/watch.svg"/>
+									<img class="__icon" src="./images/share.svg"/>
+								</div>
+							</div>
+						</div>
+						<div class="projects__item content__box">
+							<div class="project__status"></div>
+							<div class="project__content">
+								<div class="project__title">Impossible App</div>
+								<div class="project__desc">Sed ttempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
+								<div class="project__actions">
+									<img class="__icon" src="./images/star.svg"/>
+									<img class="__icon" src="./images/watch.svg"/>
+									<img class="__icon" src="./images/share.svg"/>
+								</div>
+							</div>
+						</div>
+						<div class="projects__item content__box">
+							<div class="project__status"></div>
+							<div class="project__content">
+								<div class="project__title">Easy Peasy App</div>
+								<div class="project__desc">Sed ttempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
+								<div class="project__actions">
+									<img class="__icon" src="./images/star.svg"/>
+									<img class="__icon" src="./images/watch.svg"/>
+									<img class="__icon" src="./images/share.svg"/>
+								</div>
+							</div>
+						</div>
+						<div class="projects__item content__box">
+							<div class="project__status"></div>
+							<div class="project__content">
+								<div class="project__title">Ad Blocker</div>
+								<div class="project__desc">Sed ttempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
+								<div class="project__actions">
+									<img class="__icon" src="./images/star.svg"/>
+									<img class="__icon" src="./images/watch.svg"/>
+									<img class="__icon" src="./images/share.svg"/>
+								</div>
+							</div>
+						</div>
+						<div class="projects__item content__box">
+							<div class="project__status"></div>
+							<div class="project__content">
+								<div class="project__title">Money Maker</div>
+								<div class="project__desc">Sed ttempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
+								<div class="project__actions">
+									<img class="__icon" src="./images/star.svg"/>
+									<img class="__icon" src="./images/watch.svg"/>
+									<img class="__icon" src="./images/share.svg"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="announces">
+					<div class="content__header">Announcements</div>
+					<div class="announces__list content__box">
+						<div class="announces__item">
+							<div class="announce__title">Site Maintenance</div>
+							<div class="announce__desc">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</div>
+						</div>
+						<hr class="announces__divider">
+						<div class="announces__item">
+							<div class="announce__title">Community Share Day</div>
+							<div class="announce__desc">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</div>
+						</div>
+						<hr class="announces__divider">
+						<div class="announces__item">
+							<div class="announce__title">Updated Privacy Policy</div>
+							<div class="announce__desc">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</div>
+						</div>
+					</div>
+				</div>
+				<div class="trending">
+					<div class="content__header">Trending</div>
+					<div class="trending__list content__box">
+						<div class="trending__item">
+							<img class="__icon __icon--user trend__icon" src="./images/user.png"/>
+							<div class="trend__text">
+								<div class="trend__user">@vincevaris</div>
+								<div class="trend__project">World Peace Builder</div>
+							</div>
+						</div>
+						<div class="trending__item">
+							<img class="__icon __icon--user trend__icon" src="./images/user.png"/>
+							<div class="trend__text">
+								<div class="trend__user">@vincevaris</div>
+								<div class="trend__project">Super Cool Project</div>
+							</div>
+						</div>
+						<div class="trending__item">
+							<img class="__icon __icon--user trend__icon" src="./images/user.png"/>
+							<div class="trend__text">
+								<div class="trend__user">@vincevaris</div>
+								<div class="trend__project">Life Changing App</div>
+							</div>
+						</div>
+						<div class="trending__item">
+							<img class="__icon __icon--user trend__icon" src="./images/user.png"/>
+							<div class="trend__text">
+								<div class="trend__user">@vincevaris</div>
+								<div class="trend__project">No Traffic Maker</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
